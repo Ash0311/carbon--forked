@@ -16,7 +16,8 @@
     "docs/README.pl.md",
     "docs/README.se.md",
     "docs/README.ta.md",
-    "docs/README.tr.md"
+    "docs/README.tr.md",
+    "docs/README.tw.md"
   ],
   "imageSize": 100,
   "commit": false,
@@ -771,6 +772,15 @@
       "name": "Tim Wienk",
       "avatar_url": "https://avatars0.githubusercontent.com/u/150598?v=4",
       "profile": "https://tim.wienk.name/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "JeremyShih",
+      "name": "Jeremy Shih",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7455516?v=4",
+      "profile": "https://github.com/JeremyShih",
       "contributions": [
         "translation"
       ]

@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://reporanger.com">
-    <img src="https://img.shields.io/badge/maintained%20with-Ranger-1f93f3.svg" alt="maintained with Ranger" />
+    <img src="https://img.shields.io/badge/maintained%20with-Ranger-1f93f3.svg" alt="maintained with Ranger" />  
   </a>
   <a href="#contributors">
     <img src="https://img.shields.io/badge/all_contributors-78-orange.svg" alt="All Contributors" />
@@ -17,80 +17,100 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://opencollective.com/carbon-app">
-    <img src="https://opencollective.com/carbon-app/tiers/badge.svg?label=Financial%20Contributors&color=297eff" alt="Open Collective sponsors" />
-  </a>
-  <a href="https://opencollective.com/carbon-app#backers">
-    <img src="https://opencollective.com/carbon-app/tiers/backers/badge.svg?label=Backers&color=297eff" alt="Open Collective backers" />
-  </a>
-  <a href="https://opencollective.com/carbon-app#sponsors">
-    <img src="https://opencollective.com/carbon-app/tiers/sponsors/badge.svg?label=Sponsors&color=297eff" alt="Open Collective sponsors" />
+<p align="center">	
+  <a href="https://opencollective.com/carbon-app">	
+    <img src="https://opencollective.com/carbon-app/tiers/badge.svg?label=Financial%20Contributors&color=297eff" alt="Open Collective sponsors" />	
+  </a>	
+  <a href="https://opencollective.com/carbon-app#backers">	
+    <img src="https://opencollective.com/carbon-app/tiers/backers/badge.svg?label=Backers&color=297eff" alt="Open Collective backers" />	
+  </a>	
+  <a href="https://opencollective.com/carbon-app#sponsors">	
+    <img src="https://opencollective.com/carbon-app/tiers/sponsors/badge.svg?label=Sponsors&color=297eff" alt="Open Collective sponsors" />	
   </a>
 </p>
 
 <br></br>
 
-## प्रस्तावना
+## 簡介
 
-आप ट्विटर पर देखे गए [उन](https://twitter.com/reactjs/status/890511993261654017) [सभी](https://twitter.com/dan_abramov/status/890191815567175680) [कोड](https://twitter.com/notquiteleo/status/873483329345028096) [स्क्रीनशॉट](https://twitter.com/zeithq/status/805779711154647040) को जानते हैं? हालांकि कोड आमतौर पर प्रभावशाली है, हमने सौंदर्य विभाग में सुधार के लिए जगह देखी। कार्बन आपके स्रोत कोड की सुंदर छवियों को बनाना और साझा करना आसान बनाता है। तो आप किसका इंतज़ार कर रहे हैं? अपने सभी अनुयायियों को अपने नए डिजाइन कौशल के साथ प्रभावित करें।
+你見過 Twitter 上面的 [這](https://twitter.com/dan_abramov/status/890191815567175680) [些](https://twitter.com/reactjs/status/890511993261654017) [程式碼](https://twitter.com/notquiteleo/status/873483329345028096) [圖片](https://twitter.com/zeithq/status/805779711154647040) 嗎? 雖然這些程式碼令人印象深刻，但從美觀程度來說還有提升空間。Carbon 能夠輕鬆地將你的原始碼生成漂亮的圖片並分享。還等什麼呢？用這個新發現的美化工具秀給你的 followers 看吧。
 
 <p align="center">
   <img width="100%" alt="Carbon example" src="https://user-images.githubusercontent.com/8397708/63456416-b27d1a80-c403-11e9-9572-105b089be885.png">
 </p>
 
-## विशेषताएं
+## 特色
 
-- **GitHub gist से आयात करें**. बस यूआरएल में एक GitHub gist आईडी संलग्न करें
-- **अनुकूलन**. थीम, विंडो शैली आदि जैसी चीजों को कस्टमाइज़ करें
-- **जल्दी से साझा करें**. अपनी छवि को सहेजें या एक क्लिक के साथ एक लिंक ट्वीट करें
+- **訂製化**：訂製選項包括圖片的語法主題、字體樣式等
+- **快速分享**：一鍵生成圖片或網址並分享
+- **儲存記錄**：建立帳號來儲存程式碼片段，已分享的程式碼會自動展開至 Twitter 和 Slack
 
-## प्रयोग
+## 使用
 
-#### Import
+#### 　
 
-कार्बन में कोड import करने के कुछ अलग तरीके हैं:
+有幾種不同的方法可以將程式碼輸入到 Carbon：
 
-- एक फ़ाइल को editor पर छोड़ दें
-- यूआरएल में एक गिटहब गिस्ट आईडी संलग्न करें (e.g. [`carbon.now.sh/<gist_id_here>`](https://carbon.now.sh/3208813b324d82a9ebd197e4b1c3bae8))
-- अपना कोड सीधे paste
+- 把檔案拖曳到編輯器中
+- 在 carbon url 後面加上 GitHub gist id （例如 [`carbon.now.sh/你的_gist_id`](https://carbon.now.sh/3208813b324d82a9ebd197e4b1c3bae8)）
+- 直接貼上程式碼！
 
-#### अनुकूलन
+#### 訂製化
 
-एक बार जब आप अपना पूरा कोड कार्बन में प्राप्त कर लेंगे, तो आप सिंटैक्स थीम, पृष्ठभूमि रंग, विंडो थीम या पैडिंग को बदलकर अपनी छवि को कस्टमाइज़ कर सकते हैं।
+當你把程式碼輸入到 Carbon 後，你可以調整程式碼圖片。訂製選項包括語法主題、背景顏色、視窗主題、padding、陰影、字體等等。
 
-#### Export/Sharing
+#### 輸出 & 分享
 
-अपनी छवि को अनुकूलित करने के बाद आप या तो छवि के लिंक को ट्वीट कर सकते हैं, या इसे सीधे सहेज सकते हैं।
+當你調整完圖片樣式後，可以透過以下方式分享。
 
-## समुदाय
+#### 儲存程式碼片段
 
-इन परियोजनाओं को देखें हमारे शानदार समुदाय ने बनाया है:
+分享一個儲存的程式碼片段可以自動在 Twitter 和 Slack 等平台上展開圖片。這種方式可以讓使用者在看圖片的同時，也能夠點開網址取得你的程式碼。
 
-##### Editor Plugins
+如果你通過 "Tweet" 按鈕分享，Carbon 將自動設置你的圖片為公開訪問。不過如果你想手動分享圖片，可以查看 [如何設置 Twitter 圖片公開訪問](https://help.twitter.com/en/using-twitter/picture-descriptions)。
 
-- [IntelliJ IDEA `carbon-now-sh`](https://plugins.jetbrains.com/plugin/10469-carbon-now-sh) - एक context menu के माध्यम से कार्बन में अपनी वर्तमान IntelliJ IDEA फ़ाइल में चयन खोलें
-- [Atom `carbon-now-sh`](https://atom.io/packages/carbon-now-sh) - `shift-cmd-A` के साथ कार्बन में अपनी वर्तमान एटम फ़ाइल खोलें
-- [VS Code `carbon-now-sh`](https://marketplace.visualstudio.com/items?itemName=ericadamski.carbon-now-sh) - कार्बन में कमांड `carbon` के साथ अपनी वर्तमान VS Code फ़ाइल खोलें
-- [Sublime Text 3 `carbon-now-sh`](https://github.com/molnarmark/carbonSublime) - एक कस्टम बाध्य कुंजी के साथ अपने वर्तमान sublime text 3 फ़ाइल में चयन खोलें
-- [Vim `carbon-now-sh`](https://github.com/kristijanhusak/vim-carbon-now-sh) - फ़ंक्शन `CarbonNowSh()` का उपयोग करके अपने वर्तमान Vim/Neovim में चयन को खोलें
-- [Emacs `carbon-now-sh`](https://github.com/veelenga/carbon-now-sh.el) - इंटरैक्टिव फ़ंक्शन `carbon-now-sh` का उपयोग करके अपने वर्तमान Emacs में चयन को खोलें
+如果你在文章中添加 Carbon 圖片，注意到圖片中的原始碼對於無障礙技術來說是不可見的，比如無法放大字號或複製。可以考慮新增一個元素展示文本形式的原始碼，比如在圖片下方加一個 [詳細訊息展現元素](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/details)。
 
-##### CLIs
+#### 安裝 Carbon 桌面客戶端（離線）
 
-- [CLI `carbon-now-cli`](https://github.com/mixn/carbon-now-cli) - कार्बन में एक फ़ाइल खोलें या इसे `carbon-now` का उपयोग करके सीधे डाउनलोड करें, जिसमें एक इंटरैक्टिव मोड, चुनिंदा हाइलाइटिंग और बहुत कुछ शामिल है
+如果你使用的是 Google Chrome 或別的支持 PWA 技術的瀏覽器，你可以安裝 Carbon 並離線使用：
 
-##### Libraries
+1. 訪問 [https://carbon.now.sh](https://carbon.now.sh)
+2. 點擊瀏覽器的設置按鈕
+3. 點擊 "安裝 Carbon..."
 
-- [R `carbonate`](https://yonicd.github.io/carbonate/) - `R` में छवि सौंदर्यशास्त्र का आंशिक रूप से उपयोग करें और या तो कार्बन में खुलें या सीधे डाउनलोड करें।
+## 社群
 
-##### पाठ्यपुस्तकें
+瀏覽社群中的這些優秀專案：
 
-- ["CS 101 - An Introduction to Computational Thinking"](https://itunes.apple.com/us/book/id1435714196) - सरबो रॉय द्वारा एक कंप्यूटर विज्ञान पाठ्यपुस्तक।
+##### 編輯器擴充功能
 
-## लेखक
+- [IntelliJ IDEA `carbon-now-sh`](https://plugins.jetbrains.com/plugin/10469-carbon-now-sh) - 在 IntelliJ IDEA 中透過右鍵選單輸入選中的程式碼到 Carbon
+- [Atom `carbon-now-sh`](https://atom.io/packages/carbon-now-sh) - 在 Atom 中透過 `shift-cmd-A` 快捷鍵輸入當前檔案到 Carbon
+- [VS Code `carbon-now-sh`](https://marketplace.visualstudio.com/items?itemName=ericadamski.carbon-now-sh) - 在 VS Code 中透過 `carbon` 命令輸入當前檔案到 Carbon
+- [Sublime Text 3 `carbon-now-sh`](https://github.com/molnarmark/carbonSublime) - 在 Sublime Text 3 中透過自訂快捷鍵輸入選中的程式碼到 Carbon
+- [Vim `carbon-now-sh`](https://github.com/kristijanhusak/vim-carbon-now-sh) - 在 Vim/Neovim 中透過 `CarbonNowSh()` 函數輸入選中的程式碼到 Carbon
+- [Emacs `carbon-now-sh`](https://github.com/veelenga/carbon-now-sh.el) - 在 Emacs 中透過 `carbon-now-sh` 交互函數輸入選中的程式碼到 Carbon
+- [Xcode `carbon-now-sh`](https://github.com/StevenMagdy/CarboNow4Xcode) - 在 `carbon.now.sh` 中打開選中的程式碼
+- [Xcode `nef`](https://github.com/bow-swift/nef-plugin) - 這個 Xcode 外掛程式能讓你將選中的程式碼一鍵輸出成 Carbon 片段
 
-कार्बन द्वारा एक परियोजना है
+##### 工具
+
+- [CLI `carbon-now-cli`](https://github.com/mixn/carbon-now-cli) - 用 `carbon-now` 命令在 Carbon 中打開一個檔案或者直接下載它，包含互動式選項、可選高亮等功能
+- [CodeExpander](https://codeexpander.com) - 是一個智慧並具有像 TextExpander 特性的 GitHub Gist 客戶端
+- [`nef`](https://github.com/bow-swift/nef#-exporting-carbon-code-snippets) - 從 `Xcode Playground` 輸出多個 Carbon 程式碼片段。
+
+##### 工具
+
+- [R `carbonate`](https://yonicd.github.io/carbonate/) - 用 `R` 腳本疊代處理圖片樣式並在 Carbon 中打開或直接下載。
+
+##### 引用
+
+- ["CS 101 - An Introduction to Computational Thinking"](https://itunes.apple.com/us/book/id1435714196) - Sarbo Roy 寫的一本電腦科學書.
+
+## 專案作者
+
+Carbon 專案由 TA 們發起：
 
 - Mike Fix ([@mfix22](https://github.com/mfix22))
 - Brian Dennis ([@briandennis](https://github.com/briandennis))
@@ -105,23 +125,47 @@
 
 ---
 
-## Contribute
+## 貢獻程式碼
 
-PRs का स्वागत है! अधिक जानकारी के लिए कृपया हमारे [CONTRIBUTING.md](/.github/CONTRIBUTING.md) देखें।
+歡迎 PR！請查看 [貢獻指南](/.github/CONTRIBUTING.md) 了解詳情。
 
-### धन्यवाद
+### 贊助商
 
-[ ▲ Vercel ](https://vercel.com/) कार्बन की होस्टिंग को प्रायोजित करने के लिए।
+你的公司在用 Carbon 嗎？考慮一下為此專案的新功能開發、bug 修復等提供贊助。
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fcarbon-app%2Fcarbon&project-name=carbon&repo-name=carbon)
+<a href="https://fossa.com" style="margin-right: 2rem;" target="_blank"><img width="280px" src="https://fossa.com/wp-content/themes/rs_theme/assets/images/logo.svg" /></a>
+<a href="https://opencollective.com/carbon-app/sponsors/0/website" target="_blank"><img src="https://opencollective.com/carbon-app/sponsors/0/avatar"></a>
+<a href="https://opencollective.com/carbon-app/sponsors/1/website" target="_blank"><img src="https://opencollective.com/carbon-app/sponsors/1/avatar"></a>
+<a href="https://opencollective.com/carbon-app/sponsors/2/website" target="_blank"><img src="https://opencollective.com/carbon-app/sponsors/2/avatar"></a>
+<a href="https://opencollective.com/carbon-app/sponsors/3/website" target="_blank"><img src="https://opencollective.com/carbon-app/sponsors/3/avatar"></a>
+<a href="https://opencollective.com/carbon-app/sponsors/4/website" target="_blank"><img src="https://opencollective.com/carbon-app/sponsors/4/avatar"></a>
 
-### योगदानकर्ता
+### 贊助者
+
+喜歡用 Carbon 嗎？考慮一下為此專案的新功能開發或改進提供贊助。
+
+<a href="https://opencollective.com/carbon-app/backers/0/website" target="_blank"><img src="https://opencollective.com/carbon-app/backers/0/avatar"></a>
+<a href="https://opencollective.com/carbon-app/backers/1/website" target="_blank"><img src="https://opencollective.com/carbon-app/backers/1/avatar"></a>
+<a href="https://opencollective.com/carbon-app/backers/2/website" target="_blank"><img src="https://opencollective.com/carbon-app/backers/2/avatar"></a>
+<a href="https://opencollective.com/carbon-app/backers/3/website" target="_blank"><img src="https://opencollective.com/carbon-app/backers/3/avatar"></a>
+<a href="https://opencollective.com/carbon-app/backers/4/website" target="_blank"><img src="https://opencollective.com/carbon-app/backers/4/avatar"></a>
+<a href="https://opencollective.com/carbon-app/backers/5/website" target="_blank"><img src="https://opencollective.com/carbon-app/backers/5/avatar"></a>
+<a href="https://opencollective.com/carbon-app/backers/6/website" target="_blank"><img src="https://opencollective.com/carbon-app/backers/6/avatar"></a>
+<a href="https://opencollective.com/carbon-app/backers/7/website" target="_blank"><img src="https://opencollective.com/carbon-app/backers/7/avatar"></a>
+<a href="https://opencollective.com/carbon-app/backers/8/website" target="_blank"><img src="https://opencollective.com/carbon-app/backers/8/avatar"></a>
+<a href="https://opencollective.com/carbon-app/backers/9/website" target="_blank"><img src="https://opencollective.com/carbon-app/backers/9/avatar"></a>
+
+### 感謝
+
+[ ▲ Vercel ](https://vercel.com/) 贊助了 Carbon 的服務託管。
+
+### 貢獻者
 
 ![Contributors image](https://opencollective.com/carbon-app/contributors.svg?width=1024)
 
-#### All contributors
+#### 所有貢獻者
 
-इन सभी अद्भुत लोगों के लिए धन्यवाद ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+感謝所有這些優秀的貢獻者們 ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
